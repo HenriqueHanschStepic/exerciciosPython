@@ -1,0 +1,18 @@
+class tama:
+  def _init_(self, nome, fome, vida, idade):
+    self.nome = nome
+    self.fome = fome
+    self.vida = vida
+    self.idade = idade
+    
+  def set_nome(self, nome)
+    self.nome = nome
+    
+  def set_fome(self, fome)
+    self.fome = fome
+    
+  def set_vida(self, vida)
+    self.vida = vida
+    
+  def set_idade(self, idade)
+    self.idade = idade
