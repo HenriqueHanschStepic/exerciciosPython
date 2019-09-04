@@ -1,0 +1,31 @@
+class Retangulo:
+    def __init__(self):
+      self.x = 0
+      self.y = 0
+      
+    def set_x(self, x):
+      self.x = x
+     
+    def set_y(self, y):
+      self.y = y
+      
+    def get_x(self):
+      return self.x
+    
+    def get_y(self):
+      return self.y
+    
+    def get_area(self):
+      return self.x * self.y
+    
+    def get_perimeter(self):
+      return (self.x + self.y)*2
+    
+    def create_classroom(self, x, y):
+        self.set_y(y)
+        self.set_x(x)
+        print("Pisos:", self.get_area())
+        print("Rodapés:", self.get_perimeter())
+        
+retangulo = Retangulo()
+retangulo.create_classroom(4,8)
