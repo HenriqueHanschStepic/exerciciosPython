@@ -1,0 +1,27 @@
+class bichinhovirtual:
+   def _init_(self, nome, fome, vida, idade):
+      self.nome = nome
+      self.fome = fome
+      self.vida = vida
+      self.idade = idade
+      
+      self.comidinha = 0
+      self.brincadeirinha = 0
+      
+      def alimentar(self, comida):
+          if comida < 0 or comida > 100:
+            raise Exception('Comidinha tem que ser um valor de 0 até 100')
+            
+          aumento_status = comida / 2
+          
+          self.fome -= status
+          self.vida += status
+            
+      def  brincar(self, tempo_brincadeirinha):
+          if brincadeirinha < 0 or brincadeirinha > 100:
+             raise Exception('Brincadeirinha tem que swer um valor de 0 até 100')
+              
+          status = tempo_brincadeirinha / 2
+          
+          self.fome += status
+          self.vida -= status   
